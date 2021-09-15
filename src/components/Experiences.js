@@ -35,7 +35,7 @@ function About() {
                 x:'100vw'
             })
         }
-    }, [inView])
+    }, [inView,animationy,animation])
 
     return (
         <div className="container bg-color row-height" id="Experience">
