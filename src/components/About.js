@@ -1,9 +1,8 @@
-import React,{Component} from 'react';
+import React from 'react';
 import img from "./img.jpg";
 import {motion, useAnimation} from "framer-motion";
 import {useInView} from "react-intersection-observer";
 import {useEffect} from "react";
-import {animation} from "framer-motion";
 
 function About() {
     const {ref, inView} = useInView();
