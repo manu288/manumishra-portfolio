@@ -35,7 +35,7 @@ function About() {
                 x:'100vw'
             })
         }
-    }, [inView])
+    }, [inView,animation,animationy])
 
     return (
         <div className="container bg-color row-height" id="Technologies">

@@ -22,7 +22,7 @@ function About() {
                 x:'-100vw'
             })
         }
-    }, [inView])
+    }, [inView,animation])
 
     return (
         <div className="container bg-color" id="About">
