@@ -25,7 +25,7 @@ function About() {
     }, [inView,animation])
 
     return (
-        <div className="container bg-color" id="About">
+        <div className="container bg-color row-height" id="About">
             <div ref={ref} className="row">
             <motion.div className="about-section-img col" animate={animation} >
                 <img id="slide" src={img} alt="" className="col portfolio-img" ></img>
